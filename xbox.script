@@ -19,7 +19,7 @@ progress = 0;
 
 fun refresh_callback ()
   {
-    sprite.SetImage(image[Math.Int(progress) % 603]);
+    sprite.SetImage(image[Math.Int(progress)]);
     progress++;
   }
 
